@@ -8,15 +8,18 @@ public class Runner {
      */
 
     public static void main(String[] args) {
-        int number = 9;
+        int number = 18;
+
         if (number % 2 == 0) {
-            System.out.println("It is even");
+            System.out.println(number+ " It is even");
 
         }
         if (number % 2 != 0) {
 
-            System.out.println("It is odd");
+            System.out.println(number+ " It is odd");
         }
+
+
         
     }
 }
